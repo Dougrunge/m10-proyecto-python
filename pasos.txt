@@ -1,0 +1,23 @@
+1. INICIAR EL REPOSITORIO LOCAL
+
+   git init
+
+2. ENLAZAR CON REPOSITORIO REMOTO
+
+git remote add origin https://github.com/Dougrunge/m10-proyecto-python.git
+
+3. VERIFICAR SI QUEDÓ ENLAZADO EL REPOSITORIO REMOTO
+
+   git remote -v
+
+4. cambiar a rama main
+   git branch -M main
+
+5. Agregar cambios del proyecyo al area de preparacion stage Agregar
+   git add .
+
+6. Versionar de forma local el proyecto con los archivos seleccionados 
+   git commit -m "Agregando archivos .csv para iniciar proyecto de python"
+
+7. Subir la version local al REPOSITORIO REMOTO
+   git push origin main
